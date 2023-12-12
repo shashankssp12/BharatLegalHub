@@ -1,0 +1,81 @@
+/* Styling Below */
+
+.upperBtn{
+    padding: 1rem;
+    position: absolute;
+    top:15%;
+    right: 0;
+    border-bottom-left-radius: 1rem;
+}
+
+.floatingModal{
+    width: 100%;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+    z-index: 1;
+}
+.floatingModal
+label span{
+    padding: 5px 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #f97316;
+    transition: 0.3s ease-in-out;
+}
+label span:hover{
+    cursor: pointer;
+    background: #f97316;
+    color: #fff;
+}
+
+
+
+label span.active{
+    color: #fff;
+    background: #f97316;
+}
+
+
+.services{
+    width: 15rem;
+    text-align: center;
+}
+.getOtp{
+    padding: 5px 1rem;
+    border: 2px solid #f97316;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    color: #f97316;
+    transition: 0.2s ease-in-out;
+}
+.getOtp:hover{
+    cursor: pointer;
+    background: #f97316;
+    color: #fff;
+}
+.genderBox{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.genderBox div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.verified{
+    padding: 5px 1rem;
+    background: #f97316;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    cursor: default;
+}
+.userProfile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}

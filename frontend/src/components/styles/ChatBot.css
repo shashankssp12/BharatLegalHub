@@ -1,0 +1,108 @@
+/* Styling Below */
+
+.chatBot{
+    position: fixed;
+    right: 5%;
+    bottom: 15%;
+}
+
+.chatBox::before{
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: -10%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 2, 72, 0.1);
+    z-index: -1;
+    filter: blur(30px);
+}
+.botToggle{
+    position: fixed;
+    right: 2.5%;
+    bottom: 5%;
+    background-color: orange;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+}
+.botContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botContainer img{
+    width: 50px;
+}
+.chatContainer{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 20rem;
+    overflow-y: auto;
+}
+.chatContainer p{
+    padding: 5px 0.5rem;
+    width: 80%;
+    font-size: 0.8rem;
+}
+.chatContainer .me{
+    align-self: flex-end;
+    background-color: #e0e0e0;
+    border-radius: 1rem 1rem 0 1rem;
+}
+.chatContainer .bot{
+    align-self: flex-start;
+    background-color: aquamarine;
+    border-radius: 1rem 1rem 1rem 0;
+}
+.chatBox{
+    transition: 0.5s ease-in-out;
+    transform: translateY(50%) translateX(50%) scaleX(0) scaleY(0);
+    border-radius: 1rem;
+    background: orange;
+}
+.activeChatBox{
+    transition: 0.5s ease-in-out;
+    transform: translateY(0%) translateX(0%) scaleX(1) scaleY(1);
+}
+.chatBotTitle{
+    display: flex;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    justify-content: center;
+    background: aquamarine;
+    padding: 1rem;
+}
+.msgHandler{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: aquamarine;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    gap: 1rem;
+}
+.msgHandler input{
+    padding: 5px;
+    border-radius: 1rem;
+}
+.sendMsg{
+    padding: 5px 0.5rem;
+    background: orange;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: #fff;
+}
+.chatBotTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+}

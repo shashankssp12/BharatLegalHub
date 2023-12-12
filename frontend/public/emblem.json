@@ -1,0 +1,85 @@
+{
+    "IPC": {
+        "color": "blue",
+        "desc": "The Indian Penal Code, 1860.",
+        "link": "/ipc.pdf"
+    },
+    "CrPC": {
+        "color": "rgb(61 212 193)",
+        "desc": "The Code of Criminal Procedure, 1973."
+    },
+    "CCP": {
+        "color": "#ec4899",
+        "desc": "The Code of Civil Procedure, 1908."
+    },
+    "NIA": {
+        "color": "green",
+        "desc": "The Negotiable Instruments Act, 1881."
+    },
+    "IDA": {
+        "color": "purple",
+        "desc": "The Divorce Act, 1869."
+    },
+    "HMA": {
+        "color": "#9333ea",
+        "desc": "The Hindu Marriage Act, 1995."
+    },
+    "TIEA": {
+        "color": "green",
+        "desc": "The Evidence Act, 1872."
+    },
+    "PWDV": {
+        "color": "brown",
+        "desc": "The Protection of Women from Domestic Violence Act, 2005.",
+        "link": "/pwdv.pdf"
+    },
+    "IT": {
+        "color": "#9333ea",
+        "desc": "The Infromation Act, 2000."
+    },
+    "MVA": {
+        "color": "pink",
+        "desc": "The Motor Vehicles Act, 1988.",
+        "link": "/mv-act.pdf"
+    },
+    "PA": {
+        "color": "orange",
+        "desc": "The Police Act, 1861."
+    },
+    "RTI": {
+        "color": "darkblue",
+        "desc": "The Right to Information Act, 2005."
+    },
+    "POCA": {
+        "color": "lightblue",
+        "desc": "The Preventionn of Corruption Act, 1988."
+    },
+    "COSS": {
+        "color": "aquamarine",
+        "desc": "The Code on Social Security, 2020."
+    },
+    "ITA": {
+        "color": "green",
+        "desc": "The Income Tax Act, 1961."
+    },
+    "CA": {
+        "color": "teal",
+        "desc": "The Companies Act, 2013."
+    },
+    "TCA": {
+        "color": "aqua",
+        "desc": "The Competition Act, 2002."
+    },
+    "CPA": {
+        "color": "khaki",
+        "desc": "The Consumer Protection Act, 2019."
+    },
+    "CGST": {
+        "color": "brown",
+        "desc": "The Central Goods and Services Tax Act, 2017."
+    },
+    "PPFVR": {
+        "color": "purple",
+        "desc": "The Protection of Plant Varities and Farmers Rights Act, 2001."
+    }
+}

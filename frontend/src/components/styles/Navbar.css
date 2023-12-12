@@ -1,0 +1,65 @@
+/* Styling Below */
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.ministryLogo{
+    height: 65px;
+    width: 100%;
+}
+
+
+
+.moreParent:hover .dropdown {
+    visibility: visible;
+    margin-top: 0.5rem;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.dropDown {
+    position: absolute;
+    top: 115%;
+    right: -10%;
+    background: #fff;
+    flex-direction: column;
+    user-select: none;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .12), 0 6px 6px 0 rgba(0, 0, 0, .24);
+    z-index: 10;
+    border-radius: 0.5rem;
+}
+
+.dropDown::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    right: 16px;
+    content: " ";
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+}
+
+.dropDown>div {
+    padding: 0.5rem 1rem;
+}
+.otherDrops span{
+    padding: 0.25rem 1rem;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.otherDrops span:hover{
+    color: #fff;
+    background: #f97316;
+    border-radius: 0.5rem;
+}
+.navbar{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .12), 0 6px 6px 0 rgba(0, 0, 0, .24);
+}
