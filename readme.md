@@ -2,7 +2,10 @@
 
 A unified e-marketplace for all legal service providers in India! ⚖️
 
-![BharatLegalHub Logo](images/BharatLegalHub.png)
+
+## Watch the Demo Video
+[![Watch the video](https://img.youtube.com/vi/HYKdc52nfAU/0.jpg)](https://www.youtube.com/watch?v=HYKdc52nfAU)
+
 
 ## 🌟 Project Overview
 
