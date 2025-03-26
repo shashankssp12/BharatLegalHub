@@ -3,8 +3,9 @@
 A unified e-marketplace for all legal service providers in India! ⚖️
 
 
-## Watch the Demo Video
+## 🎬 Project Demo
 [![Watch the video](https://img.youtube.com/vi/HYKdc52nfAU/0.jpg)](https://www.youtube.com/watch?v=HYKdc52nfAU)
+*Click the image to watch the demo video!*
 
 
 ## 🌟 Project Overview
@@ -43,24 +44,13 @@ According to recent studies, over 30 million legal cases are pending in India's 
 - **📑 Law Resources**: Access important bare acts and legal information
 - **💬 Chat Support**: Get assistance with finding the right services
 
-## 🎬 Project Demo
 
-[![BharatLegalHub Demo](images/demo-thumbnail.png)](https://youtu.be/your-demo-link)
-*Click the image to watch the demo video!*
+## 📱 User Interface Collage
 
-## 📱 Screenshots
+### UI of 5 main pages:
+![Home Page](imgs/CollageBLH.png)
 
-### Home Page
-![Home Page](images/homepage.png)
 
-### Lawyers Search
-![Lawyers Search](images/lawyers-search.png)
-
-### Profile Page
-![Profile Page](images/profile-page.png)
-
-### Document Writers
-![Document Writers](images/document-writers.png)
 
 ## 🔍 Research & Challenges
 
